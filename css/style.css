@@ -1,0 +1,314 @@
+body{
+    background-color: #ccc;
+    padding: 0;
+    margin : 0;
+    font-family: 'Google Sans';
+    color: #212832;
+    font-size: 17pt;
+}
+.container{
+    width: 1440px;
+    height: 4774px;
+    background-color: #fff;
+    margin: 0px   auto;
+}
+.hero{
+    width: 1440px;
+    height: 869px;
+    float: left;
+    position: relative; 
+}
+.services{
+    width: 1440px;
+    height: 621px;
+    float: left;
+    /* background-color: yellowgreen; */
+}
+.destinations{
+    width: 1440px;
+    height: 740px;
+    float: left;
+    /* background-color: blueviolet; */
+}
+.book{
+    width: 1440px;
+    height: 678px;
+    float: left;
+    background-color: coral;
+}
+.testi{
+    width: 1440px;
+    height: 356px;
+    float: left;
+    background-color: lightblue;
+}
+.logos{
+    width: 1440px;
+    height: 250px;
+    float: left;
+    background-color: darkcyan;
+}
+.subs{
+    width: 1440px;
+    height: 601px;
+    float: left;
+    background-color: aquamarine;
+}
+.footer{
+    width: 1440px;
+    height: 450px;
+    float: left;
+    background-color: pink;
+}
+.logo{
+    float: left;
+    margin-left: 141px;
+    margin-top: 49px;
+}
+.menu{
+    float: left;
+    margin-left: 222px;
+    margin-top: 49px;
+    position: relative;
+    z-index: 1;
+}
+.menu li{
+    display: inline;
+    margin-right: 55px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #212832;
+}
+.menu li a:hover{
+   border-bottom: 1px solid #212832;
+   border: 1px;
+}
+.login{
+    float: left;
+    margin-top: 49px;
+    position: relative;
+    z-index: 1;
+}
+.login li{
+    display: inline;
+    margin-right: 55px;
+}
+.login li a{
+    text-decoration: none;
+    color: #212832;
+}
+.login li a:hover{
+   border: 1px solid #212832;
+}
+.lang {
+    float: left ;
+    margin-top: 49px;
+    border: 1px;
+    font-size: 13pt;
+    position: relative;
+    z-index: 1;
+    background-color: #FFF1DA;
+}
+.hero_content{
+    float: left ;
+    width: 1200.87px;
+    height: 764px;
+    margin-left: 141px; 
+}
+.decore{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    width: 600px;
+    height: auto;
+
+}
+.model{
+    float: left;
+    position: absolute;
+    z-index: 1;
+    margin-left: -100px;
+}
+.desc{      
+    float: left;
+    width: 630px;
+    height: 535px;
+    margin-top: 133px;
+}
+.tagline {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: "Poppins";
+    color: #DF6951;
+    float: left;
+    /* margin-left: 5px;
+    margin-top: -50px; */
+}
+.heading{
+    width: 545px;
+    height: 267px;
+    float: left;
+    font-size: 77px;
+    font-weight: bold;
+    font-family: "volkhov";
+    color: #181E4B;
+    letter-spacing: -4%;
+    margin-top: -15px;
+    margin-left: 5px;
+    /* border: 1px solid #e80404; */
+}
+.description {
+    float: left;
+    width: 477px;
+    height: 90px;
+    font-family: "Volkhov";
+    font-size: 16pt;
+    font-weight: 500 ; 
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.cta{
+    float: left;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.heading1{
+    float: left;
+    width: 98px;
+    height: 27px;
+    font-size: 18pt;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: #5E6282;
+    margin-left: 671px;
+    text-align: center;
+}
+.heading2{
+    float: left;
+    width: 750px;
+    height: 65px;
+    font-size: 50pt;
+    font-weight: 500;
+    font-family: "Volkhov";
+    color: #14183E;
+    /* border: 1px solid #e20303; */
+    margin-left: 446px;
+    margin-top: 10px;
+}
+.categori1{
+    float: left;
+    width: 190px;
+    height: 227px;
+    margin-left: 118px;
+    background-color: #ffffff;
+    border-radius: 36px;
+    transition: width 0.03 ease, height 0.03 ease;
+}
+.categori1:first-of-type{
+    clear: both;
+}
+.categori1:hover{
+    width: 267px;
+    height: 314px;
+    border-radius: 36px;
+    transition: width 0.03 ease, height 0.03 ease;
+    background-color: #ffffff;
+    box-shadow: 4px 8px 5px 0px rgba(204,204,204,0.92)
+}
+.cat-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.cat-title{
+    font-size: 20pt;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #1E1D4C;
+    /* border: 1px solid #ed0707; */
+    text-align: center;
+}
+.cat-content{
+    font-size: 14pt;
+    font-family: "Poppins";
+    font-weight: 500;
+    text-align: center;
+    color: #959BAA;
+}
+.subheading{
+    float: left;
+    font-size: 18pt;
+    font-family: "Poppins";
+    font-weight: 600;
+    text-align: center;
+    color: #5E6282;
+    margin-left: 670px;
+}
+.headingtext{
+    float: left;
+    font-size: 50pt;
+    font-family: "Volkhov";
+    font-weight: 700;
+    text-align: center;
+    color: #14183E;
+    margin-left: 511px;
+    margin-top: 15px;
+}
+.easy{
+    float: left;
+    font-size: 18pt;
+    font-family: "Poppins";
+    font-weight: 600;
+    text-align: center;
+    color: #5E6282;
+    margin-left: 186px;
+}
+.kotak1{
+    width: 687px;
+    height: 492px;
+    float: left;
+    border: 1px solid #111111;
+    position: absolute;
+    background-color: #111111;
+}
+.trip{
+    width: 511px;
+    height: 130px;
+    font-size: 50tp;
+    font-weight: 700;
+    font-family: "Volkhov";
+    text-align: justify;
+    color: #14183E;
+    margin-left: 186px;
+    border: 1px solid #ee0505;
+    margin-top: 50px;
+}
+.kotak2{
+
+}
+.subtesti{
+    float: left;
+    width: 128px;
+    height: 27px;
+    /* border: 1px solid #111111; */
+    font-size: 18pt;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: left;
+    color: #6246E5;
+    margin-left: 186px;
+}
+.headingwhat{
+    width: 409px;
+    float: left;
+    font-size: 50pt;
+    font-family: "Volkhov";
+    font-weight: 700;
+    text-align: left;
+    color: #14183E;
+    margin-left: -150px;
+    margin-top: 50px;
+}
